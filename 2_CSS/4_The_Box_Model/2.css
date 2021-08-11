@@ -1,0 +1,8 @@
+.box {
+	border: dotted black 5px;
+	margin-top: 20px;
+	margin-right: 1em;
+	margin-bottom: 40px;
+	margin-left: 2em;
+	padding: 1em;
+}
