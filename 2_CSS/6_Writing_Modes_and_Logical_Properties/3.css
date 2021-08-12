@@ -1,0 +1,11 @@
+
+.box {
+	width: 150px;
+	height: 150px;
+	border-block-start: 5px solid rebeccapurple;
+	border-inline-end: 5px solid grey;
+	border-block-end: 5px dotted red;
+	border-inline-start: 5px dotted blue;
+	padding-block-start: 40px;
+	margin-block-end: 30px;
+}
