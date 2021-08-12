@@ -2,18 +2,14 @@
 	border: solid lightblue 5px;
 	border-top-left-radius: 20px;
 	border-bottom-right-radius: 40px;
-	padding: 10px;
+}
 
+h2 {
+	text-align: center;
 	background-image: 		url(star.png),
 												url(star.png);
 	background-repeat:		no-repeat,
 												repeat-y;
-	background-position: 	left 	10px center,
-												right 10px center;
-}
-
-h2 {
-	padding: 20px;
-	margin-right: -150px;
-	margin-top: auto;
+	background-position: 	left 	 center,
+												right  center;
 }
