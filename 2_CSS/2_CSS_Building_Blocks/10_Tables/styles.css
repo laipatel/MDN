@@ -1,0 +1,33 @@
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+	text-align: left;
+}
+
+tr *:nth-child(2),
+tr *:nth-child(3) {
+	text-align:right;
+	width:15%;
+}
+
+tbody tr:nth-child(2n-1) {
+	background-color: lavender;
+}
+
+tfoot tr th {
+	text-align: right;
+}
+
+tfoot tr td {
+	text-align: left !important;
+}
+
+tfoot {
+	border-top: 1px solid grey;
+}
+
+tr * {
+	padding: 10px;
+}
