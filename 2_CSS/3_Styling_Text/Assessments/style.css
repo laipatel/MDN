@@ -4,14 +4,12 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0 auto;
+body { margin: 0 auto;
   min-width: 1000px;
   max-width: 1400px;
 }
 
 /* Layout */
-
 section {
   float: left;
   width: 50%;
@@ -45,18 +43,6 @@ header, footer {
 /* WRITE YOUR CODE BELOW HERE */
 
 @font-face {
-    font-family: 'DejaVu Sans';
-    src: url('fonts/DejaVuSans-Bold.eot');
-    src: url('fonts/DejaVuSans-Bold.eot?#iefix') format('embedded-opentype'),
-        url('fonts/DejaVuSans-Bold.woff2') format('woff2'),
-        url('fonts/DejaVuSans-Bold.woff') format('woff'),
-        url('fonts/DejaVuSans-Bold.svg#DejaVuSans-Bold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
     font-family: 'DejaVu Serif';
     src: url('fonts/DejaVuSerif.eot');
     src: url('fonts/DejaVuSerif.eot?#iefix') format('embedded-opentype'),
@@ -66,5 +52,50 @@ header, footer {
     font-weight: normal;
     font-style: normal;
     font-display: swap;
+}
+
+@font-face {
+    font-family: 'Copse';
+    src: url('fonts/Copse-Regular.eot');
+    src: url('fonts/Copse-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Copse-Regular.woff2') format('woff2'),
+        url('fonts/Copse-Regular.woff') format('woff'),
+        url('fonts/Copse-Regular.svg#Copse') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1,
+h2 {
+	font-family: 'Copse', 'Verdana',  'Trebuchet MS', 'Arial', sans-serif;
+}
+
+p {
+	font-family: 'DejaVu Serif', 'Georgia', 'Times New Roman', 'Times', serif;
+}
+
+* {
+	font-size: 10px;	
+}
+
+h1,
+h2 {
+	font-size: 4.25em;
+	letter-spacing: .1em;
+}
+
+p,
+li { 
+	font-size: 2em;
+	line-height: 1.5em;
+}
+
+a {
+	font-size: 1em;
+}
+
+h1 {
+	text-align: center;
 }
 
