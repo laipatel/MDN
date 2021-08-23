@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-body { margin: 0 auto;
+body { 
+	margin: 0 auto;
   min-width: 1000px;
   max-width: 1400px;
 }
@@ -36,8 +37,8 @@ header, section, aside, nav, footer {
 /* header and footer */
 
 header, footer {
-  border-top: 5px solid #a66;
-  border-bottom: 5px solid #a66;
+  border-top: 5px solid #aa6666;
+  border-bottom: 5px solid #aa6666;
 }
 
 /* WRITE YOUR CODE BELOW HERE */
@@ -83,19 +84,102 @@ h1,
 h2 {
 	font-size: 4.25em;
 	letter-spacing: .1em;
+	word-spacing: .1em;
+}
+
+
+h1 {
+	text-align: center;
 }
 
 p,
 li { 
 	font-size: 2em;
 	line-height: 1.5em;
+	letter-spacing: .03em;
+	word-spacing: .03em;
+}
+
+h1 + p,
+h2 + p {
+	text-indent: 1.5em;
 }
 
 a {
 	font-size: 1em;
+	outline: none;
 }
 
-h1 {
+a:link {
+	color: #aa6666;
+}
+
+a:visited {
+	color: #006666;
+}
+
+a:focus {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:active {
+	background: #66aaaa;
+	color: white;
+}
+
+a[href^="https"] {
+	background: url('external-link.png') no-repeat 100% 50%;
+	background-size: .75em;
+	padding-right: 1em;
+}
+
+nav {
+	margin-top: 5em;
+	font-family: 'Copse', 'Verdana',  'Trebuchet MS', 'Arial', sans-serif;
+}
+
+nav ul {
+	padding-left: 0;
+	list-style: none;
+}
+
+nav li {
 	text-align: center;
+	line-height: 5em;
+	border-bottom: 5px solid #aa6666;
+	border-right: 5px solid #aa6666;
+	border-left: 5px solid #aa6666;
 }
 
+nav li:first-child {
+	border-top: 5px solid #aa6666;
+}
+
+nav a:link {
+	text-decoration: none;
+	font-size: 1.5em;
+	color: #aa6666;
+}
+
+
+nav a:visited {
+	color: #aa6666;
+}
+
+nav a:focus {
+	outline: dotted 2px #aa6666;
+	text-decoration: underline;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+nav a:active {
+	background: #aa6666;
+	color: white;
+}
