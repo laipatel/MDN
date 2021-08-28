@@ -1,6 +1,9 @@
 
 .float {
-	}
+	float: left;
+}
 
 .below {
-	}
+	clear: left;
+
+}
