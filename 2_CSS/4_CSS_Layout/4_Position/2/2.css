@@ -1,7 +1,8 @@
 .container {
-
+	position: relative;
 }
 
 .sidebar {
+	position: fixed;
 
 }
