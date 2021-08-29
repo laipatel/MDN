@@ -3,11 +3,6 @@
 	column-count: 3;
 }
 
-
 .box {
-
-}
-
-h2 {
-
+	column-span: all;
 }
