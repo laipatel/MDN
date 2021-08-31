@@ -1,3 +1,4 @@
+/* Desktop Layout */
 @media screen and (min-width: 800px) and (orientation: landscape) {
 
 	/* ||header */
@@ -7,9 +8,56 @@
 		align-items: center;
 	}
 
+	.title ~ nav a {
+		border-top: 0;
+	}
+
 	nav ul {
 		display: flex;
 		flex-direction: row;
 	}	
 
+	/* ||main */
+
+
+	main {
+		display: grid;
+		grid-template-columns: 3fr 1fr;
+		gap: 20px;
+	}
+
+	.cards {
+		display: grid;
+		gap: 20px;
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	article ~	.sidebar {
+		margin-top: 20px;
+		height: 85vh;
+	}
 }
+
+@media screen and (min-width: 500px) and (orientation: portrait) {
+	header {
+ 		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.title ~ nav a {
+		border-top: 0;
+	}
+
+	nav ul {
+		display: flex;
+		flex-direction: row;
+	}	
+
+	.cards {
+		display: grid;
+		gap: 20px;
+		grid-template-columns: repeat(2, 1fr);
+
+	}
+}	
