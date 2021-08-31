@@ -1,21 +1,15 @@
 @media screen and (min-width: 800px) and (orientation: landscape) {
 
+	/* ||header */
 	header {
-		flex;
-	}
-
-	header .title {
-		display: inline-block;
-	}
-
-	nav {
-		display: inline;
+ 		display: flex;
+		justify-content: space-between;
+		align-items: center;
 	}
 
 	nav ul {
 		display: flex;
 		flex-direction: row;
-		justify-content: end;
 	}	
 
 }
