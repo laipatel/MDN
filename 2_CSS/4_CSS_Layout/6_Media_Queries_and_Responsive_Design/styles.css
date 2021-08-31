@@ -38,6 +38,7 @@
 	}
 }
 
+/* Tablet Layout */
 @media screen and (min-width: 500px) and (orientation: portrait) {
 	header {
  		display: flex;
